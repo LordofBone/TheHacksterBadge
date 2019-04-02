@@ -2,8 +2,8 @@
 int i;
 int ledNos[] = {8, 5, 6, 7, 3, 2, 11, 4, 16, 15, 12, 17, 14, 10, 13};
 void setup() {
-   for (i = 0; i < 18; i++) {
-    pinMode(i, OUTPUT);
+   for (i = 0; i < 15; i++) {
+    pinMode(ledNos[i], OUTPUT);
    }
 }
 
